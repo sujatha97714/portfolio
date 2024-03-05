@@ -39,7 +39,11 @@
  
  .timeline-block-left {
     float: left;
-    direction: rtl
+    direction: rtl;
+
+    .timeline-content > p{
+      text-align: end;
+    }
  }
  
  .marker {
@@ -55,23 +59,27 @@
  .timeline-content {
     width: 95%;
     padding: 0 15px;
-    color: #666
+    color: #666;
+
+    > p {
+      text-align: justify;
+    }
  }
  
  .timeline-content h3 {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: 500
  }
  
  .timeline-content span {
-    font-size: 15px;
+    font-size: 1rem;
     color: #a4a4a4;
  }
  
  .timeline-content p {
-    font-size: 14px;
+    font-size: 1rem;
     line-height: 1.5em;
     word-spacing: 1px;
     color: #888;

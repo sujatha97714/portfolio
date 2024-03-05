@@ -8,9 +8,9 @@ const AboutMe = () => {
                 <h2>Hey there! &#128075;</h2>
             </header>
             <p> I'm a grad student studying Computer Engineering at ASU, set to graduate in May 2024. What really gets me excited is full stack web development and I love creating websites that are not only super dynamic and high-performing but also really user-friendly. My specialty? Building digital solutions that grow and adapt with the times, all while making sure users have an awesome experience. </p>
-            <ul className="actions">
+            {/* <ul className="actions">
                 <li><a href="generic.html" className="button">Learn More</a></li>
-            </ul>
+            </ul> */}
         </div>
         <span className="image"><img src="/assets/images/sujatha.jpg" alt="" /></span>
     </div>
