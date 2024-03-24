@@ -1,12 +1,14 @@
 import './App.css';
 import AboutMe from './components/AboutMe';
 import Experience from './components/Experience';
-import Footer from './components/Footer';
+import Skills from './components/Skills';
 import Projects from './components/Projects';
-import SecondSection from './components/SecondSection';
-import GetStarted from './components/GetStarted';
+// import SecondSection from './components/SecondSection';
+import Contact from './components/Contact';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import Footer from './components/Footer';
+
 
 function App() {
   return (
@@ -16,9 +18,10 @@ function App() {
       <div id="main">
         <AboutMe />
         <Experience />
+        <Skills />
         <Projects />
-        <SecondSection />
-        <GetStarted />
+        {/* <SecondSection /> */}
+        <Contact />
         <Footer />
       </div>
     </div>
