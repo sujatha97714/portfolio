@@ -12,7 +12,7 @@ const AboutMe = () => {
                 <li><a href="generic.html" className="button">Learn More</a></li>
             </ul> */}
         </div>
-        <span className="image"><img src="/assets/images/sujatha.jpg" alt="" /></span>
+        <span className="image"><img src="assets/images/sujatha.jpg" alt="" /></span>
     </div>
 </section>)
 }
