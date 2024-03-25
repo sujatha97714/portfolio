@@ -64,22 +64,23 @@
     > p {
       text-align: justify;
     }
+
+    .skills {
+      font-style: italic;
+    }
  }
  
  .timeline-content h3 {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 1.5rem;
     font-weight: 500
  }
  
  .timeline-content span {
-    font-size: 1rem;
     color: #a4a4a4;
  }
  
  .timeline-content p {
-    font-size: 1rem;
     line-height: 1.5em;
     word-spacing: 1px;
     color: #888;

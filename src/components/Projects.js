@@ -10,7 +10,7 @@ const projects = [
 	},
 	{
 		title: 'Custom optimized minibase DB',
-		shortDesc : 'Customized minibase db by altering the underlying datastructure from tuple to maps. Implemented customized sorting and filtering algorithms to match the new record data structure and improved the performance in terms of reduced disk reads and writes',
+		shortDesc : 'Customized minibase db by altering the underlying datastructure from tuple to maps. Implemented customized indexing to match the new record data structure and improved the performance in terms of disk read and write counts',
 		githubLink: 'https://github.com/sujatha97714/bigtable_minibase',
 		techs: ['Java', 'DB Implementation', 'Disk Management', 'Sorting and filtering algorithms']
 	},
