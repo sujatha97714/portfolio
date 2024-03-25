@@ -18,9 +18,9 @@ const Skills = () => {
 					<p>Node.js, Express.js, C, C#, Python, Java, PostgreSQL, SQLite, MongoDB</p>
 				</li>
 				<li>
-					<span className="icon solid major style5 solid fa-cube"></span>
+					<span className="icon solid major style5 fa-cube"></span>
 					<h3>Tools & Techs</h3>
-					<p>GraphQL, React Native, Terraform, GIT, AWS - S3, Dynamo db, RDS, IAM, API Gateway, App Sync, Lambdas. </p>
+					<p>GraphQL, React Native, Terraform, GIT, NPM, Yarn, Babel, Webpack, AWS - S3, Dynamo db, RDS, IAM, API Gateway, App Sync, Lambdas. </p>
 				</li>
 			</ul>
 		</section>
