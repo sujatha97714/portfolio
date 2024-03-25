@@ -18,13 +18,13 @@ const projects = [
 		title: 'Android Threat Detector',
 		shortDesc : 'Developed an application which takes android app as input and analyzes its codebase to determine whether the app is benign or malignant. Designed an algorithm that tracks all the permissions and dependencies recursively for analysis',
 		githubLink: 'https://github.com/SoftwareSecurity-CSE-545/ProjectPart2',
-		techs: ['python', 'machine learning', 'java', 'android development', 'recursion']
+		techs: ['Python', 'Machine learning', 'Java', 'Android development', 'Recursion']
 	},
 	{
 		title: 'Image Classifier',
 		shortDesc : 'A tool to perform classification on a set of images based on the information learned from the training set. Enhanced the model accuracy by incorporating image augmentation techniques to produce variations and noise in the images',
 		githubLink: 'https://github.com/sujatha97714/image-classifier',
-		techs: ['python', 'openCV', 'sklearn', 'numpy', 'machine learning', 'feature extraction']
+		techs: ['Python', 'OpenCV', 'Sklearn', 'Numpy', 'Machine learning', 'Feature extraction']
 	},
 ]
 
@@ -41,7 +41,7 @@ const Projects = () => {
 							<h3>{project.title}</h3>
 							<p>{project.shortDesc}</p>
 							<p className={css.skills}>Skills Acquired: <span>{project.techs.join(', ')}</span></p>
-							<button>
+							<button href={project.githubLink}>
 								{`Github `}
 								<span className='icon solid fa-external-link-alt'></span>
 							</button>
