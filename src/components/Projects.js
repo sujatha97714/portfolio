@@ -41,9 +41,9 @@ const Projects = () => {
 							<h3>{project.title}</h3>
 							<p>{project.shortDesc}</p>
 							<p className={css.skills}>Skills Acquired: <span>{project.techs.join(', ')}</span></p>
-							<button href={project.githubLink}>
-								{`Github `}
-								<span className='icon solid fa-external-link-alt'></span>
+							<button>
+								<a href={project.githubLink} target='_blank'>{`Github `}
+								<span className='icon solid fa-external-link-alt'></span></a>
 							</button>
 						</div>
 					))
